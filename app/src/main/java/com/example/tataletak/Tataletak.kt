@@ -141,7 +141,7 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
             Image(
                 painter = gambar,
                 contentDescription = "Gambar MyMine",
-                modifier = Modifier.size(80.dp), // bisa lo ubah
+                modifier = Modifier.size(150.dp), // bisa lo ubah
                 contentScale = ContentScale.Crop
             )
             Text(text = "My Music",
