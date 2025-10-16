@@ -1,6 +1,5 @@
 package com.example.tataletak
 
-import android.R.attr.text
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Text
@@ -15,5 +14,6 @@ fun ColumnRow(modifier: Modifier){
         Text("wiwalkdetolk",
             modifier )
         Text("notonletalkdetolk")
+        Text("HIDUP JO")
     }
 }
