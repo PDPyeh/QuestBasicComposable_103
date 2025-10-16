@@ -103,6 +103,9 @@ fun TataletakRowColumn(modifier: Modifier) {
 @Composable
 fun TataletakBoxColumnRow(modifier: Modifier) {
     val gambar = painterResource(id = R.drawable.mymine)
+
+    val gambar1 = painterResource(id = R.drawable.ilove)
+
     Column {
         Box(
             modifier = modifier
@@ -151,6 +154,20 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
                 fontFamily = FontFamily.Cursive,
                 modifier= Modifier.align(
                     alignment = Alignment.Center))
+        }
+        Box(
+            modifier = modifier
+                .fillMaxWidth()
+                .height(300.dp)
+                .background(color = Color.White),
+            contentAlignment = Alignment.Center
+        ){
+            Image(
+                painter = gambar1,
+                contentDescription = "Gambar MyMine",
+                modifier = Modifier.size(1500.dp), // bisa lo ubah
+                contentScale = ContentScale.Fit
+            )
         }
     }
 }
