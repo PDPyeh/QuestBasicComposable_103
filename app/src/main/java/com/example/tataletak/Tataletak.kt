@@ -135,16 +135,16 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
             modifier = modifier
                 .fillMaxWidth()
                 .height(300.dp)
-                .background(color = Color.Cyan),
+                .background(color = Color.White),
             contentAlignment = Alignment.Center
         ){
             Image(
                 painter = gambar,
                 contentDescription = "Gambar MyMine",
-                modifier = Modifier.size(150.dp), // bisa lo ubah
-                contentScale = ContentScale.Crop
+                modifier = Modifier.size(1500.dp), // bisa lo ubah
+                contentScale = ContentScale.Fit
             )
-            Text(text = "My Music",
+            Text(text = "My Mine",
                 fontSize = 50.sp,
                 color = Color.Red,
                 fontWeight = FontWeight.Bold,
