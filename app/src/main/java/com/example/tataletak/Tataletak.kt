@@ -1,5 +1,6 @@
 package com.example.tataletak
 
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Text
@@ -9,11 +10,11 @@ import androidx.compose.ui.unit.dp
 
 
 @Composable
-fun ColumnRow(modifier: Modifier){
-    Column(modifier = modifier.padding(50.dp)){
-        Text("wiwalkdetolk",
-            modifier )
-        Text("notonletalkdetolk")
-        Text("HIDUP JO")
+fun TataletakColumn(modifier: Modifier) {
+    Column(modifier = modifier.padding(top = 20.dp, start = 30.dp, bottom = 20.dp, end = 30.dp)) {
+        Text(text = "Komponen1")
+        Text(text = "Komponen2")
+        Text(text = "Komponen3")
+        Text(text = "Komponen4")
     }
 }
